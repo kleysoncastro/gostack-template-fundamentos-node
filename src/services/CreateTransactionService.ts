@@ -1,9 +1,6 @@
 import TransactionsRepository from '../repositories/TransactionsRepository';
 import Transaction from '../models/Transaction';
 
-interface TypeOfResquest {
-  type: 'income' | 'outcome';
-}
 interface TransactionDTO {
   title: string;
   value: number;
